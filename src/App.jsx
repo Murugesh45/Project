@@ -4,7 +4,8 @@ import Nav from "./Nav/Nav"
 import Header from "./Header/Header"
 import Section from "./Section/Section"
 import Footer from './Footer/Footer'
-
+import ProjectDetails from './ProjectDetails/ProjectDetails'
+import Cart from './Cart/Cart'
 function App() {
    return (
     < >
@@ -12,6 +13,8 @@ function App() {
      <Header/>
      <Section/>
      <Footer/>
+     <ProjectDetails />
+     <Cart />
      
     </>
   )

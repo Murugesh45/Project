@@ -6,10 +6,10 @@ function Section() {
  <p className=' font-extrabold uppercase text-center py-4 text-2xl'>New Arraivals</p>
 <div className=" flex mx-4 gap-2 md:flex justify-evenly">
   <div><img src="/img2.png" className=' w-50 h-50 rounded-lg'/><br/><p className=' font-bold text-sm lowercase'>T-SHIRT WITH TAPE DETAILS</p><br/><p className=' font-bold relative bottom-6'>$120</p></div>
-  <div><img src="/img3.png" className=' w-50 h-50 rounded-lg'/><br/><p className=' font-bold text-sm lowercase'>SKINNY FIT JEANS</p><br/><p className=' font-bold relative bottom-6'>$240<del className='  font-bold mx-4 text-red-300'>$260</del></p>
+  <div><img src="/img3.png" className=' w-50 h-50 rounded-lg'/><br/><p className=' font-bold text-sm lowercase'>SKINNY FIT JEANS</p><br/><p className=' font-bold relative bottom-6'>$240<del className='  font-bold mx-4  opacity-30'>$260</del></p>
   </div>
    <div><img src="/img4.png" className='sm: hidden w-50 h-50 rounded-lg md:flex'/><br/><p className='sm: hidden font-bold text-sm lowercase md:flex'>T-SHIRT WITH TAPE DETAILS</p><br/><p className=' hidden font-bold relative bottom-6 md:flex'>$120</p></div>
-  <div><img src="/img5.png" className='sm: hidden w-50 h-50 rounded-lg md:flex'/><br/><p className='sm: hidden font-bold text-sm lowercase md:flex'>SKINNY FIT JEANS</p><br/><p className=' hidden font-bold relative bottom-6 md:flex'>$240<del className='hidden font-bold mx-4 text-red-300 md:flex'>$260</del></p>
+  <div><img src="/img5.png" className='sm: hidden w-50 h-50 rounded-lg md:flex'/><br/><p className='sm: hidden font-bold text-sm lowercase md:flex'>SKINNY FIT JEANS</p><br/><p className=' hidden font-bold relative bottom-6 md:flex'>$240<del className='hidden font-bold mx-4  md:flex opacity-30'>$260</del></p>
   </div>
 </div>
 <div className='mx-4 md:text-center lg:text-center'>
@@ -17,7 +17,7 @@ function Section() {
 
  <p className='my-4 font-extrabold uppercase text-center py-4 text-2xl'>Top Selling</p>
 <div className="flex mx-6 gap-2 md:flex justify-evenly">
-  <div><img src="/img6.png" className='w-50 h-50 rounded-lg'/><br/><p className='font-bold text-sm lowercase'>Vertical Striped Shirt</p><br/><p className='sm: font-bold relative bottom-6'>$212<del className=' sm: font-bold mx-4 text-red-300'>$260</del></p></div>
+  <div><img src="/img6.png" className='w-50 h-50 rounded-lg'/><br/><p className='font-bold text-sm lowercase'>Vertical Striped Shirt</p><br/><p className='sm: font-bold relative bottom-6'>$212<del className=' sm: font-bold mx-4 opacity-30'>$260</del></p></div>
   <div><img src="/img7.png" className='w-50 h-50 rounded-lg'/><br/><p className='font-bold text-sm lowercase'>Courage Graphic T-shirt</p><br/><p className='sm: font-bold relative bottom-6'>$145</p>
   </div>
   <div><img src="/img8.png" className='hidden w-50 h-50 rounded-lg md:flex'/><br/><p className=' hidden font-bold text-sm lowercase md:flex'>LOOSE FIT BERMUDA SHORTS</p><br/><p className='sm: hidden font-bold relative bottom-6 md:flex'>$180</p></div>
