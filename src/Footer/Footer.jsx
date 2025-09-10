@@ -53,7 +53,7 @@ function Footer() {
     </div>
     </div>
     <hr className=' my-6'/>
-    <div className=' md:flex justify-between mx-8 py-4 '>
+    <div className='flex flex-col mx-4 md:flex justify-between mx-8 py-4 '>
         <div>
     <p className='text-center pb-2 '>Shop.co © 2000-2023, All Rights Reserved</p></div>
     <div className="flex gap-4 items-center justify-center my-2 ">
