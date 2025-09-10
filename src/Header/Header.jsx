@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 function Header() {
   return (
     <div>
@@ -27,16 +28,16 @@ function Header() {
        </div>
         </div>
         <div className=' absolute top-190 z-2 w-10 md:hidden'>
-          <img src="image.png" />
+          <img src="/image.png" />
         </div>
         <div className=' absolute top-170 right-10 z-2 w-15 md:hidden'>
-          <img src="image.png" />
+          <img src="/image.png" />
         </div>
 
       <div className='w-80 h-100   md:w-1/2 transform -translate-y-20 md:w-90 ' >
         
       
-      <img src="img1.jpg" className='mt-50 md:mt-14'/>
+      <img src="/img1.jpg" className='mt-50 md:mt-14'/>
     
      </div>
       </div>
